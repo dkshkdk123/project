@@ -1,5 +1,5 @@
-<div>
-  ### 1. # 메인페이지
+### 1. # 메인페이지
+<div>  
   <img src = "./img/메인페이지.png" width="1000px" height="600px">
 </div>
 
