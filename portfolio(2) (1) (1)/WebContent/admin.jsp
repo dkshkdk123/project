@@ -10,7 +10,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ include file="admin_header.jsp" %>
   <style>
-        .content{clear: both; width: 100%; height: 540px; }
+        .content{clear: both; width: 100%; height: 630px;  }
     </style>
 </head>
 <body>

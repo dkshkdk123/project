@@ -124,7 +124,7 @@
 				if(conn!=null) conn.close();
 			}catch(Exception e){
 				System.out.println("DBcon error:"+e);
-		}
+			}
 		}
     %>
 	<%@ include file ="footer.jsp"%>

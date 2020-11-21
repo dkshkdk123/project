@@ -9,12 +9,12 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ include file="header.jsp" %>
 <style>
-        .content{clear: both; width: 100%; height: 660px; }
+		.content{clear: both; width: 100%; height: 700px; }
         .crumb{clear: both; width: 1280px;  margin: 0 auto; }
-        .crumb li{float: right  ; }
+        .crumb li{float: left  ; margin-top: 20px; margin-bottom: 40px; }
         .crumb li a{color: #333; font-size: 14px; font-weight: bold;  }
-        .crumb li:last-of-type::before{content: none;}
-        .crumb li::before{content: ">"; padding-right: 20px; padding-left: 20px;}
+        .crumb li:last-of-type::after{content: none;}
+        .crumb li::after{content: ">"; padding-right: 20px; padding-left: 20px;}
         .login{clear: both; width: 1280px; margin: 0 auto;}
         .login_h1{text-align: center;}
         .login_top li{display: inline-block; width: 334px; height: 30px; border: 3px solid#ddd;

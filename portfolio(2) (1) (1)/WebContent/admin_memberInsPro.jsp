@@ -10,7 +10,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ include file="admin_header.jsp" %>
 
-
+</head>
+<body>
 <%
 	Connection conn = null;
 	PreparedStatement pstmt = null;
@@ -21,17 +22,15 @@
 		conn = DBcon.getConnection();
 		String sql ="insert into custom_tbl values(?,?,?,?,?,?,?) ";
 		pstmt = conn.prepareStatement(sql);
-		rs = pstmt.executeQuery();
+		pstmt.setString(1, request.getParameter("custid"));
+		pstmt.setString(2, request.getParameter("pw"));
+		pstmt.setString(3, request.getParameter("author"));
+		pstmt.setString(4, request.getParameter("goods"));
+		pstmt.setString(5, request.getParameter("phone"));
+		pstmt.setString(6, request.getParameter("email"));
+		pstmt.setString(7, request.getParameter("area"));
+		pstmt.executeQuery();
 		
-		while(rs.next()){
-			pstmt.setString(1, request.getParameter("custid"));
-			pstmt.setString(2, request.getParameter("pw"));
-			pstmt.setString(3, request.getParameter("author"));
-			pstmt.setString(4, request.getParameter("goods"));
-			pstmt.setString(5, request.getParameter("phone"));
-			pstmt.setString(6, request.getParameter("email"));
-			pstmt.setString(7, request.getParameter("area"));
-		}
 		
 		}catch(Exception e){
 			System.out.println("Ins error:"+e);
@@ -44,4 +43,8 @@
 			}
 		}
 %>
-
+<script>
+location.href="admin_memberList.jsp";
+</script>
+</body>
+</html>

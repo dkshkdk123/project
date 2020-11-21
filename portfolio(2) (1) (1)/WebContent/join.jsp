@@ -34,9 +34,9 @@
         .join_co{color: #00529c;font-size: 18px; line-height: 70px; padding-left: 10px; font-weight: bold;}
         .join_normal{color: #171717; font-size: 12px; line-height: 70px;}
         .join_none{color: #A5A5A5; font-size: 18px; line-height: 70px; padding-left: 10px;}
-        .join_img{padding-left: 250px; position: absolute; left: 425px; top: 410px;}
-        .join_img2{padding-left: 230px; position: absolute; left: 865px; top: 410px;}
-        .join_img3{padding-left: 230px; position: absolute; left: 1295px; top: 410px;}
+        .join_img{padding-left: 250px; position: absolute; left: 410px; top: 410px;}
+        .join_img2{padding-left: 230px; position: absolute; left: 850px; top: 410px;}
+        .join_img3{padding-left: 230px; position: absolute; left: 1280px; top: 410px;}
         #text1{border: 1px solid#ddd; width: 100%; height: 300px
         ; margin-top: 30px;}
         .text_person, .text_person2{clear: both; width: 1280px; height: 20px; margin: 0 auto;}

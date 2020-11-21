@@ -33,9 +33,9 @@
         .join_co{color: #00529c;font-size: 18px; line-height: 70px; padding-left: 10px; font-weight: bold;}
         .join_normal{color: #A5A5A5; font-size: 12px; line-height: 70px;}
         .join_none{color: #A5A5A5; font-size: 18px; line-height: 70px; padding-left: 10px;}
-        .join_img{padding-left: 250px; position: absolute; left: 425px; top: 410px;}
-        .join_img2{padding-left: 230px; position: absolute; left: 865px; top: 410px;}
-        .join_img3{padding-left: 230px; position: absolute; left: 1295px; top: 410px;}
+        .join_img{padding-left: 250px; position: absolute; left: 410px; top: 410px;}
+        .join_img2{padding-left: 230px; position: absolute; left: 850px; top: 410px;}
+        .join_img3{padding-left: 230px; position: absolute; left: 1280px; top: 410px;}
         .login2_first{color: #545454; font-size: 14px; padding-top: 20px; margin-bottom: 40px;
         font-weight: bold;}
         .login2_second{color: #545454; font-size: 16px; margin-bottom: 15px; font-weight: bold;}

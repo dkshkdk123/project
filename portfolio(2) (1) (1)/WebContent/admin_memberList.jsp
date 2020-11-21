@@ -11,7 +11,7 @@
 <%@ include file="admin_header.jsp" %>
 <link rel="stylesheet" href="./css/admin_header.css">
  	<style>
-        .content{clear: both; width: 100%; height: 540px; }
+        .content{clear: both; width: 100%; height: 630px;  }
         .page{clear: both; width: 1280px; margin: 0 auto;}
         .tit{text-align: center; margin-top: 20px; margin-bottom: 20px;}    
         .page_help{text-align: center; margin-left: 100px;}
