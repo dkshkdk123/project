@@ -159,7 +159,7 @@
 # 12. 관리자 회원목록 페이지
 
 <div>
-  <img src = "./img/관리자 페이지 회원정보 페이지.png " width="1000px" height="600px"> 
+  <img src = "./img/관리자 페이지 회원정보페이지.png " width="1000px" height="600px"> 
 </div>
 
 ## 설명
@@ -171,7 +171,7 @@
 # 13. 관리자 회원삭제 페이지
 
 <div>
-  <img src = "./img/관리자 회원삭제 페이지.png " width="1000px" height="600px"> 
+  <img src = "./img/관리자 회원삭제페이지.png " width="1000px" height="600px"> 
 </div>
 
 ## 설명
@@ -182,7 +182,7 @@
 
 # 14. 관리자 회원수정 페이지.png
 <div>
-  <img src = "./img/관리자 회원수정 페이지.png " width="1000px" height="600px"> 
+  <img src = "./img/관리자 회원수정페이지.png " width="1000px" height="600px"> 
 </div>
 
 ## 설명
@@ -194,7 +194,7 @@
 # 15. 관리자 회원 등록 페이지
 
 <div>
-  <img src = "./img/관리자 회원 등록 페이지 " width="1000px" height="600px"> 
+  <img src = "./img/관리자 회원 등록페이지 " width="1000px" height="600px"> 
 </div>
 
 ## 설명
