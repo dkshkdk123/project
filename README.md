@@ -230,7 +230,7 @@
 # 18. 제품3 페이지
 
 <div>
-  <img src = "./img/제품3.PNG " width="1000px" height="600px"> 
+  <img src = "./img/제품3.png " width="1000px" height="600px"> 
 </div>
 
 ## 설명
